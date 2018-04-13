@@ -23,7 +23,7 @@ Set GPIO mode to BCM <br>
      - Calls the imageSort() function which pulls latest file from set directory within function<br>
 -    attachs newestImage to HTML body<br><br>
    
-    ## To Do
+   ## To Do
    - [x] Setup basic script with LEDS <br>
    - [x] Setup Pushbutton to control LEDS (turn off GREEN aand turn on RED) <br>
    - [x] Add PiCamera and local stream on button press <br>
