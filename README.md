@@ -1,7 +1,6 @@
 <!--
 .tab { margin-left: 40px; }
 -->
-</style>
 
 <b><h1>Dans natureBox</h1></b><br><br><br>
 
@@ -12,7 +11,7 @@ When finished, i hope to have a fully operation Nature box, that will detect mot
 <h2>Small project for Motion detector/IR camera nature box.</h2><br><br>
 
 The Box will (when complete): <br>
-<p class="tab">Example of a tab</p>Set GPIO mode to BCM <br>
+<p class="tab">Set GPIO mode to BCM</p> <br>
   Setup GPIO output pins 23 (RED) and 24 (Green)<br>
   setup GPIO input pin 18<br>
   Wait in ready until something triggers GPIO.IN (18) - will be motion detector<br>
