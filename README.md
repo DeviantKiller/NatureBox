@@ -24,8 +24,9 @@ Set GPIO mode to BCM <br>
 -    attachs newestImage to HTML body<br><br>
    
    <h2><u>To Do list</u></h2> <br>
-   [x] \Setup basic script with LEDS <br>
-   [x] Setup Pushbutton to control LEDS (turn off GREEN aand turn on RED) <br>
+   # To do
+   - [x] Setup basic script with LEDS <br>
+   - [x] Setup Pushbutton to control LEDS (turn off GREEN aand turn on RED) <br>
    - [x] Add PiCamera and local stream on button press <br>
    - [x] Added e-mail capability using smtplib and MIMEText <br>
    - [x] Added MIMEMultipart and HTML body to e-mail <br>
@@ -35,6 +36,8 @@ Set GPIO mode to BCM <br>
    - [x] Created Function to find latest created file in Camera location and return it as a variable. <br>
    - [x] Changed location of image attached to e-mail from current working directory to imageSort() value. <br>
    - [ ] Setup GPIO input for exiting code and shutting down pi. <br>
+   
+   ## Next
    - [ ] Add in functionality for starting a saved local stream <br>
    - [ ] Add start liveStream capability to stream to Youtube when motion is detected. <br>
    
