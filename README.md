@@ -1,4 +1,3 @@
-, preamb# NatureBox
 Dans natureBox
 Small project for Motion detector/IR camera nature box.
 The Box will (when complete): 
