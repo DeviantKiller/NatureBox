@@ -1,5 +1,6 @@
-Dans natureBox<br>
-Small project for Motion detector/IR camera nature box.<br>
+<b>Dans natureBox</b><br>
+<br>
+Small project for Motion detector/IR camera nature box.<br><br>
 The Box will (when complete): <br>
   Set GPIO mode to BCM <br>
   Setup GPIO output pins 23 (RED) and 24 (Green)<br>
