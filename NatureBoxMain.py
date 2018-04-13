@@ -3,17 +3,17 @@
 
 # Import modules
 import RPi.GPIO as GPIO ##Main GPIO module
-##import time ##Import time module (apparently not used)
 from datetime import datetime ## Date and time module for file-saving
 from time import sleep ## Used to control sleep command
-import picamera # May not be required yet.
-import os # Allows for running of os commands.
-import sys
+import picamera ## May not be required yet.
+import os ## Allows for running of os commands.
+import sys ##
 import smtplib # Used for SMTP connection
 from email.MIMEText import MIMEText # Used for e-mail
 from email.MIMEMultipart import MIMEMultipart ## Used for e-mail
 from email.MIMEImage import MIMEImage ## Used for e-mail
 ##import socks ## Used for proxy
+##import time ##Import time module (apparently not used)
 print("Modules imported...")
 
 print("Setting up GPIOs...")
@@ -59,7 +59,7 @@ def takingStill():
     fileName = 'IMG_' +utcDate+ '-' +utcTime+ '.jpg'
     filePath = '/home/pi/Pictures/Camera/'
     os.system('raspistill -o ' +filePath+ '' + fileName + ' -t 1')
-    ## print("Your file is called " +fileName+". It has been saved to "+filePath+". ") ## Old Print
+    ## print("Your file is called " +fileName+". It has been saved to "+filePath+". ") ## Old Printout. Next line adds colour
     print("Your file is called \033[1;34m" +fileName+"\033[0;0m. It has been saved to \033[1;34m"+filePath+"\033[0;0m.")
 
 # Create a Function for buttons detection
@@ -71,7 +71,7 @@ def pressScan():
             GPIO.output(23, GPIO.HIGH) ## Turns red on 
             GPIO.output(24, GPIO.LOW) ## Turns green off
             print("Preparing E-mail...")
-            takingStill()
+            takingStill() # Calls the function takingStill
         
             # Emails
             strFrom = 'YOUR@domain.com'
