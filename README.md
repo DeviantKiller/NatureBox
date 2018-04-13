@@ -23,18 +23,18 @@ Set GPIO mode to BCM <br>
      - Calls the imageSort() function which pulls latest file from set directory within function<br>
 -    attachs newestImage to HTML body<br><br>
    
-   <h2><u>To Do list</u></h2>
-   - [x] Setup basic script with LEDS
-   - [x] Setup Pushbutton to control LEDS (turn off GREEN aand turn on RED)
-   - [x] Add PiCamera and local stream on button press
-   - [x] Added e-mail capability using smtplib and MIMEText
-   - [x] Added MIMEMultipart and HTML body to e-mail
-   - [x] Aded attachement to e-maail body
-   - [x] Added image capture using raspistill
-   - [x] Created Function to name image taken based on Date+Time and save to Camera location.
-   - [x] Created Function to find latest created file in Camera location and return it as a variable.
-   - [x] Changed location of image attached to e-mail from current working directory to imageSort() value.
-   - [] Setup GPIO input for exiting code and shutting down pi.
-   - [] Add in functionality for starting a saved local stream
-   - [] Add start liveStream capability to stream to Youtube when motion is detected.
+   <h2><u>To Do list</u></h2> <br>
+   - [x] \Setup basic script with LEDS <br>
+   - [x] Setup Pushbutton to control LEDS (turn off GREEN aand turn on RED) <br>
+   - [x] Add PiCamera and local stream on button press <br>
+   - [x] Added e-mail capability using smtplib and MIMEText <br>
+   - [x] Added MIMEMultipart and HTML body to e-mail <br>
+   - [x] Aded attachement to e-maail body <br>
+   - [x] Added image capture using raspistill <br>
+   - [x] Created Function to name image taken based on Date+Time and save to Camera location. <br>
+   - [x] Created Function to find latest created file in Camera location and return it as a variable. <br>
+   - [x] Changed location of image attached to e-mail from current working directory to imageSort() value. <br>
+   - [] Setup GPIO input for exiting code and shutting down pi. <br>
+   - [] Add in functionality for starting a saved local stream <br>
+   - [] Add start liveStream capability to stream to Youtube when motion is detected. <br>
    
