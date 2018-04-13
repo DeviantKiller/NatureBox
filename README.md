@@ -38,7 +38,7 @@ Set GPIO mode to BCM <br>
 
    
    ## Next
-   - [ ] Setup GPIO input for exiting code and shutting down pi. <br>
+   - [x] Setup GPIO input for exiting code and shutting down pi. <br>
    - [ ] Add in functionality for starting a saved local stream <br>
    - [ ] Add start liveStream capability to stream to Youtube when motion is detected. <br>
    
