@@ -1,4 +1,4 @@
-<b>Dans natureBox</b><br>
+<title><b>Dans natureBox</b></title><br>
 <br>
 Small project for Motion detector/IR camera nature box.<br><br>
 The Box will (when complete): <br>
