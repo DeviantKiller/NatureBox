@@ -75,7 +75,7 @@ def pressScan():
         
             # Emails
             strFrom = 'YOUR@domain.com'
-            strTo = ['exmaple@gmail.com', 'example@virginmedia.com']
+            strTo = ['example@gmail.com', 'example@virginmedia.com']
         
             #Create Root message and fill in the form from, to, and subject headers   
             msgRoot = MIMEMultipart('related')
