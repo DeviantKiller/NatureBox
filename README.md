@@ -34,8 +34,8 @@ Set GPIO mode to BCM <br>
    - [x] Created Function to name image taken based on Date+Time and save to Camera location. <br>
    - [x] Created Function to find latest created file in Camera location and return it as a variable. <br>
    - [x] Changed location of image attached to e-mail from current working directory to imageSort() value. <br>
+   - [x] Setup GPIO input for exiting code and shutting down pi. <br>
 
-   - [ ] Setup GPIO input for exiting code and shutting down pi. <br>
    - [ ] Add in functionality for starting a saved local stream <br>
    - [ ] Add start liveStream capability to stream to Youtube when motion is detected. <br>
    
