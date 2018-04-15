@@ -78,8 +78,8 @@ def pressScan():
             takingStill()
         
             # Emails
-            strFrom = 'daniel.kilvert@gmail.com'
-            strTo = ['daniel.kilvert@gmail.com', 'daniel.kilvert@virginmedia.com']
+            strFrom = 'example@gmail.com'
+            strTo = ['example@gmail.com', 'example@virginmedia.com']
         
             #Create Root message and fill in the form from, to, and subject headers   
             msgRoot = MIMEMultipart('related')
@@ -145,7 +145,7 @@ def pressScan():
                     And at the time of """ +utcTime+ """.</p><br>
                     Here is the first shot we got of it.</p><br>
                     <img src="cid:image1" alt="Latest critter." width="800" height="600"><br>
-                    <a href="https://deviantkiller.asuscomm.com/AICLOUD184741669/NatureBox">Want to see the media collected so far?</a> <br>
+                    <a href="link">Want to see the media collected so far?</a> <br>
                 </body>
             </html>
             """
@@ -181,7 +181,7 @@ def pressScan():
         
             # Send the email (this example assumes SMTP authentication is required)
         
-            smtp.login(strFrom, 'Westwood1')
+            smtp.login(strFrom, 'example')
             smtp.sendmail(strFrom, strTo, msgRoot.as_string())
             smtp.quit()
         
