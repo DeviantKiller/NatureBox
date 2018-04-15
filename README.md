@@ -30,6 +30,9 @@ Set GPIO mode to BCM <br>
    - [x] Added e-mail capability using smtplib and MIMEText <br>
    - [x] Added MIMEMultipart and HTML body to e-mail <br>
    - [x] Aded attachement to e-maail body <br>
+      - [ ] Improve upon HTML email quality
+      - [ ] Add more to HTML image
+      - [ ] links on HTML Image
    - [x] Added image capture using raspistill <br>
    - [x] Created Function to name image taken based on Date+Time and save to Camera location. <br>
    - [x] Created Function to find latest created file in Camera location and return it as a variable. <br>
@@ -38,4 +41,4 @@ Set GPIO mode to BCM <br>
 
    - [ ] Add in functionality for starting a saved local stream <br>
    - [ ] Add start liveStream capability to stream to Youtube when motion is detected. <br>
-   
+
